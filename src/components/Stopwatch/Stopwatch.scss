@@ -1,0 +1,27 @@
+.stopwatch, .lap-stopwatch {
+    &__container {
+        display: flex;
+        padding: 10px;
+        border: 2px solid white;
+        border-radius: 5px;
+
+        &--miliseconds {
+            color: brown;
+        }
+
+        &--lap-miliseconds {
+            color: aqua;
+        }
+    }
+}
+
+.wrapper {
+    display: flex;
+    gap: 15px;
+}
+
+.buttons-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
